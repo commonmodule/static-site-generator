@@ -1,0 +1,1 @@
+{"version":3,"file":"StaticSiteTemplate.d.ts","sourceRoot":"","sources":["../../src/component/StaticSiteTemplate.ts"],"names":[],"mappings":"AAAA,OAAO,aAAa,MAAM,yBAAyB,CAAC;AAEpD,MAAM,CAAC,OAAO,OAAO,kBAAkB;IACzB,OAAO,CAAC,KAAK;IAAU,OAAO,CAAC,OAAO;gBAA9B,KAAK,EAAE,MAAM,EAAU,OAAO,EAAE,aAAa;IAE1D,KAAK;CAoBb"}

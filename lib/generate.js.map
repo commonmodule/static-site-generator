@@ -1,0 +1,1 @@
+{"version":3,"file":"generate.js","sourceRoot":"","sources":["../src/generate.ts"],"names":[],"mappings":"AAAA,OAAO,QAAQ,MAAM,oBAAoB,CAAC;AAE1C,MAAM,CAAC,OAAO,CAAC,KAAK,UAAU,QAAQ,CACpC,IAAY,EACZ,OAAgC;IAEhC,MAAM,QAAQ,CAAC,KAAK,CAAC,IAAI,EAAE,OAAO,CAAC,KAAK,EAAE,CAAC,CAAC;AAC9C,CAAC"}
