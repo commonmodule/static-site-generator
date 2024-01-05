@@ -6,12 +6,13 @@
   "type": "module",
   "types": "./lib/index.d.ts",
   "main": "./lib/index.js",
-  "devDependencies": {
-    "@types/node": "^20.10.6",
-    "@types/uuid": "^9.0.7"
-  },
   "dependencies": {
     "@supabase/supabase-js": "^2.39.2",
     "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.6",
+    "@types/uuid": "^9.0.7",
+    "@types/ws": "^8.5.10"
   }
 }
