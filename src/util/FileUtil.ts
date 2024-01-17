@@ -26,7 +26,7 @@ class FileUtil {
 
   public async readBuffer(path: string): Promise<Buffer> {
     if (await this.checkFileExists(path) !== true) {
-      throw new Error(`${path} Not Exists`);
+      throw new Error(`file "${path}" not exists`);
     } else {
       return new Promise<Buffer>((resolve, reject) => {
         FS.stat(path, (error, stat) => {
@@ -58,7 +58,7 @@ class FileUtil {
     lastUpdateTime: Date;
   }> {
     if (await this.checkFileExists(path) !== true) {
-      throw new Error(`${path} Not Exists`);
+      throw new Error(`file "${path}" not exists`);
     } else {
       return new Promise((resolve, reject) => {
         FS.stat(path, (error, stat) => {
@@ -131,7 +131,7 @@ class FileUtil {
     const files: string[] = [];
 
     if (await this.checkFileExists(path) !== true) {
-      throw new Error(`${path} Not Exists`);
+      throw new Error(`file "${path}" not exists`);
     } else {
       return new Promise((resolve, reject) => {
         FS.readdir(path, { withFileTypes: true }, (error, dirEntries) => {
