@@ -1,4 +1,3 @@
-/// <reference types="node" />
 declare class FileUtil {
     checkFileExists(path: string): Promise<boolean>;
     readBuffer(path: string): Promise<Buffer>;
