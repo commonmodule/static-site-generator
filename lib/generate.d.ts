@@ -1,4 +1,4 @@
-export default function generate(path: string, domNode: {
-    build: () => string;
+export default function generate(pages: {
+    [path: string]: string;
 }): Promise<void>;
 //# sourceMappingURL=generate.d.ts.map
