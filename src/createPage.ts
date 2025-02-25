@@ -19,7 +19,7 @@ export default function createPage(options: {
     : "";
 
   let twitterTags =
-    `<meta name="twitter:card" content="summary">\n<meta name="twitter:title" content="${options.title}">`;
+    `<meta name="twitter:card" content="summary_large_image">\n<meta name="twitter:title" content="${options.title}">`;
   twitterTags += options.coverImageURL
     ? `\n<meta name="twitter:image" content="${options.coverImageURL}">`
     : "";
