@@ -2,12 +2,10 @@
   "name": "@common-module/static-site-generator",
   "author": "yj.gaia",
   "homepage": "https://yj.dev",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "type": "module",
   "types": "./lib/index.d.ts",
   "main": "./lib/index.js",
-  "dependencies": {
-    "@common-module/universal-page": "^0.1.8"
-  },
+  "dependencies": {},
   "devDependencies": {}
 }
